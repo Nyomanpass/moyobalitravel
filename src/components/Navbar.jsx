@@ -64,7 +64,7 @@ function Navbar() {
         {/* 1. Logo (Kiri) */}
         <a to="/">
           <img
-            src={"/logo.png"} // Tidak perlu ternary jika gambarnya sama
+            src={isScrolled ? "/logo.png" : "/logo2.png"} // berubah saat scroll
             alt="Logo"
             className="h-14 -ml-3 md:h-16 transition-all duration-300"
           />
@@ -136,13 +136,13 @@ function Navbar() {
                 </div>
               )}
             </div>
-                 {/* Tombol Contact Us/Book Now */}
-            {/* <Link 
+            {/* Tombol Contact Us/Book Now */}
+            <Link 
             to="/contact-us" 
             className={contactButtonClass}
             >
             {t("Contact Us")}
-            </Link> */}
+            </Link>
         </div>
 
         {/* Mobile Menu Button (Hanya Mobile) */}
@@ -176,7 +176,7 @@ function Navbar() {
       <div className="flex justify-between items-center mb-8">
          <a to="/">
           <img
-            src={"/logo.png"} // Tidak perlu ternary jika gambarnya sama
+            src={isScrolled ? "/logo.png" : "/logo2.png"} // berubah saat scroll (mobile)
             alt="Logo"
             className="h-14 -ml-3 md:h-16 transition-all duration-300"
           />

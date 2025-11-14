@@ -77,12 +77,6 @@ const heroSlides = [
     goToSlide(newIndex);
   };
 
-  const prevSlide = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? heroSlides.length - 1 : currentIndex - 1;
-    goToSlide(newIndex);
-  };
-
   // 🚀 LOOPING OTOMATIS (5 DETIK)
   useEffect(() => {
     const autoSlideTime = 7000;
