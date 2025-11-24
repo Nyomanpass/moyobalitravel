@@ -31,7 +31,7 @@ const AirportHome = () => {
 
 
     return (
-        <section className="py-20 md:py-32 flex items-start justify-center">
+        <section className="py-20 md:py-32 flex items-start justify-center bg-white">
             <div className="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8 w-full">
                 
                 {/* Bagian Judul (Menggunakan Warna Primary & Secondary) */}
