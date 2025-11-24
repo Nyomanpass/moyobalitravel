@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 
 
-const WA_BASE_URL = "https://wa.me/628123456789?text="; // Ganti dengan nomor WA Anda!
+const WA_BASE_URL = "https://wa.me/6281246728044?text="; // Ganti dengan nomor WA Anda!
 
 
 function TransferPackagesSection() {

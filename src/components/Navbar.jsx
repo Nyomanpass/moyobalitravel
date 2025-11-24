@@ -62,13 +62,18 @@ function Navbar() {
         className={`w-full z-50 fixed top-0 left-0 right-0 flex justify-between items-center px-6 md:px-11 lg:px-14 xl:px-14 py-4 lg:py-2 ${navClass} transition-colors duration-300`}
       >
         {/* 1. Logo (Kiri) */}
-        <a to="/">
-          <img
-            src={isScrolled ? "/logo.png" : "/logo2.png"} // berubah saat scroll
-            alt="Logo"
-            className="h-14 -ml-3 md:h-16 transition-all duration-300"
-          />
-        </a>
+   <a href="/">
+  <img
+    src={
+      isHomePage
+        ? (isScrolled ? "/logo.png" : "/logo2.png") // khusus homepage
+        : "/logo.png" // halaman lain
+    }
+    alt="Logo"
+    className="h-14 -ml-3 md:h-16 transition-all duration-300"
+  />
+</a>
+
 
         {/* 2. Link Navigasi (Tengah - Hanya Desktop) */}
         <div className="hidden md:flex gap-8 font-medium md:text-md items-center">
@@ -176,7 +181,7 @@ function Navbar() {
       <div className="flex justify-between items-center mb-8">
          <a to="/">
           <img
-            src={isScrolled ? "/logo.png" : "/logo2.png"} // berubah saat scroll (mobile)
+            src={isScrolled ? "/logo.png" : "/logo.png"} // berubah saat scroll (mobile)
             alt="Logo"
             className="h-14 -ml-3 md:h-16 transition-all duration-300"
           />
