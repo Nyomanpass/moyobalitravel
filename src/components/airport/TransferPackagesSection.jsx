@@ -147,16 +147,10 @@ function TransferPackagesSection() {
 
     return (
         <section className="">
-            <div className="max-w-7xl mx-auto px-6 lg:px-14">
+            
 
                 {/* Header Section */}
-                <div className="flex justify-between items-end mb-12 border-b border-gray-200 pb-4">
-                    <div className="max-w-xl">
-                        <h2 className="text-3xl md:text-4xl font-extrabold text-teal-600">
-                            {t("airportRoutes.title")}
-                        </h2>
-                    </div>
-                </div>
+            
 
                 {/* Grid Kartu - Menggunakan 3 kolom untuk tata letak 7 kartu yang lebih rapi */}
                <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-3">
@@ -231,7 +225,7 @@ function TransferPackagesSection() {
 </div>
 
 
-            </div>
+
         </section>
     );
 }

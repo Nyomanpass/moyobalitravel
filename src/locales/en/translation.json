@@ -7,6 +7,28 @@
     "contact": "Contact"
   },
 
+  "filter_all_label": "All Packages",
+  "filter_day_tour_label": "Bali Full Day Tour",
+  "filter_activities_label": "Bali Activities",
+  "no_tours_found_message": "No packages found in this category.",
+  "what_to_bring_title": "What To Bring",
+  "modal_title": "Airport Transfer Booking",
+    "message_send_label": "Send Message",
+    
+    "label_name": "Full Name",
+    "label_email": "Email",
+    "label_phone": "WhatsApp / Phone",
+    "label_destination": "Arrival Destination",
+    "label_booking_date": "Booking Date",
+    "label_hotel": "Hotel / Villa Name",
+    "label_message": "Message / Flight Details",
+    
+    "placeholder_select_destination": "-- Select Destination --",
+    "placeholder_hotel_name": "Example: Hilton Bali Resort",
+    "placeholder_flight_details": "Example: Flight Number, Arrival Time, Number of Passengers",
+    
+    "wa_thankyou_message": "Thank you, I would like to make a booking.",
+
   "hero": {
     "ulundanu": {
       "title": "Ulun Danu Bratan Temple",
@@ -398,191 +420,1283 @@
   "form_phone": "Phone Number",
   "form_message": "Message / Special Request",
   "book_now": "Book Now",
+  "book_now_detail": "Book Now",
   "contact_info": "Contact Info",
   "price_title": "Price",
   "program_title": "Itinerary",
-  "included_title": "Included",
-
+  "includes_title": "Included",
+  "excludes_title": "excludes",
 
 "tours": [
   {
-    "id": 1,
-    "title": "Uluwatu Temple Sunset Tour",
-    "duration": "8 hours",
-    "image": "/uluwatutemple.jpg",
-    "description": "Experience the best of Bali’s southern charm. Visit the majestic Uluwatu Temple perched on a cliff, relax at beautiful beaches, enjoy the famous Kecak Fire Dance performance, and end your day with a romantic seafood dinner by the beach in Jimbaran.",
-    "highlight": [
-      "Garuda Wisnu Kencana",
-      "Padang-Padang Beach",
-      "Uluwatu Cliff Temple",
-      "Kecak Fire Dance Performance",
-      "Romantic Dinner at Jimbaran Beach"
-    ],
-    "program": [
-      "Pick-up from your hotel (around 1:00 PM)",
-      "Visit GWK Cultural Park – see the magnificent Garuda Wisnu Kencana statue and panoramic views of Bali",
-      "Stop at Padang-Padang Beach – relax or swim at one of Bali’s most popular beaches",
-      "Explore the iconic Uluwatu Temple on the cliff overlooking the Indian Ocean",
-      "Watch the world-famous Kecak Fire Dance at sunset – a mesmerizing cultural performance",
-      "Enjoy a romantic seafood dinner on the beach at Jimbaran Bay",
-      "Return to your hotel safely"
-    ],
-    "included": [
-      "Private air-conditioned car (Avanza/Innova)",
-      "English-speaking driver/guide",
-      "Chilled mineral water & cool towel",
-      "Free Wi-Fi in the car",
-      "Fuel & parking fees",
-      "Entrance tickets to all attractions (GWK, Padang-Padang Beach, Uluwatu Temple)",
-      "Kecak Fire Dance ticket",
-      "Seafood dinner at Jimbaran Beach"
-    ],
-    "not_included": [
-      "Personal expenses",
-      "Travel insurance",
-      "Tips for the driver (optional)"
-    ],
-    "price": "From IDR 650K / person (minimum 2 persons)",
-    "note": "This tour is perfect for travelers seeking a mix of culture, nature, and culinary delight in one unforgettable day.",
-    "whatsappText": "Hello! I’m interested in booking the Uluwatu Temple Sunset Tour. Could you please share more details?",
-    "gallery": [
-      "/gwk.png",
+  "id": 1,
+  "title": "Uluwatu Sunset Romance – Explore Culture, Ocean & the Most Romantic Dinner Experience",
+  "duration": "8 - 10 Hours",
+  "category": "Bali Day Tour",
+  "image": "/uluwatu.jpg",
+  "description": "Experience a magical escape to South Bali, highlighted by the breathtaking cliff-side panorama of Uluwatu. Indulge in the pristine beauty of Padang-Padang Beach, then be captivated by the iconic sunset Kecak Dance before savoring a romantic seafood dinner on Jimbaran's sandy shores.",
+  "highlight": [
+    "Garuda Wisnu Kencana",
+    "Padang-Padang Beach",
+    "Uluwatu Temple",
+    "Sunset Kecak Dance",
+    "Romantic Dinner at Jimbaran Beach"
+  ],
+  "program": [
+    "Hotel pick-up around 13:00 and relaxing drive to Garuda Wisnu Kencana",
+    "Arrive at GWK and explore the landmark while enjoying Bali’s cultural scenery",
+    "Continue the tour to Padang-Padang Beach to relax and enjoy the beautiful coastline",
+    "Proceed to Uluwatu Temple to explore the cliff-top temple with stunning ocean panorama",
+    "Watch the iconic Kecak Dance performance right at sunset with a spectacular atmosphere",
+    "Head to Jimbaran Beach for a romantic seafood dinner by the shore",
+    "Return to the hotel safely and comfortably"
+  ],
+  "includes": [
+    "Pick Up and Drop Service",
+    "English Speaking Driver",
+    "Mineral Water and Snacks in the Car",
+    "Private Transportation",
+    "Air-Conditioned Vehicles",
+    "Parking Fee",
+    "Fuel"
+  ],
+  "excludes": [
+    "Personal Expenses",
+    "Tips and Gratuities",
+    "Entrance Tickets"
+  ],
+  "price": "IDR 650,000 / car",
+  "note": "Perfect for couples or travelers who wish to experience culture, romance, and ocean atmosphere in one trip.",
+  "whatsappText": "Hello, I’m interested in the Uluwatu Sunset Romance package. Could you help me with the booking?",
+  "gallery": [
+      "/gwk.webp",
       "/padangbeach.jpg",
-      "/uluwatutemple.jpg",
-      "/kecakdance.jpg",
+      "/uluwatu.jpg",
+      "/kecak.webp",
       "/dinnerjimbaran.jpg"
     ]
-  },
-  {
+},
+
+{
     "id": 2,
-    "title": "Nusa Dua Beach & Water Sports Adventure",
-    "duration": "6 hours",
-    "image": "/nusaduabeach.jpg",
-    "description": "Enjoy the crystal-clear waters of Nusa Dua Beach. Try exciting water sports like jet skiing, parasailing, and banana boat rides, followed by a relaxing beachside lunch.",
+    "title": "Central Bali Cultural Trail: Dance, Temple, Waterfall & Agritourism",
+    "duration": "8 - 10 Hours",
+    "category": "Bali Day Tour",
+    "image": "/ubud-culture-art.jpg",
+    "description": "An in-depth exploration of culture and nature in the heart of Bali. Witness the iconic traditional dance, visit the magnificent Batuan temple, enjoy the refreshing Kanto Lampo Waterfall, and sample Balinese coffee on an agritourism stop.",
     "highlight": [
-      "Jet Ski Adventure",
-      "Parasailing Experience",
-      "Banana Boat Ride",
-      "Relax at Nusa Dua Beach",
-      "Beachside Lunch"
+      "Barong Dance Performance",
+      "Batuan Temple",
+      "Kanto Lampo Waterfall",
+      "Coffee Plantation",
+      "Silver or Batik Art Workshop"
     ],
     "program": [
-      "Pick-up from your hotel",
-      "Arrive at Nusa Dua Beach and enjoy water sports activities",
-      "Lunch at the beachside cafe",
-      "Relax and swim at the beach",
-      "Return to your hotel"
+      "Hotel pick-up and begin the journey in the morning towards Batubulan",
+      "Watch the Barong & Keris Dance as an introduction to Balinese culture",
+      "Proceed to Batuan Temple: Explore the temple with its magnificent classic Balinese architecture (Free time for a light lunch in this area)",
+      "Continue to Kanto Lampo Waterfall: Enjoy and take photos at this beautiful tiered waterfall",
+      "Afterwards, visit the Agrowisata (Coffee Agritourism): See the process of Luwak Coffee, and enjoy a tasting session of various Balinese coffees",
+      "In the afternoon, the final stop is the Silver or Batik Art Workshop: See the process of making silver or batik crafts in the Celuk/Tohpati area (Last stop for souvenir shopping before returning)",
+      "Return journey to the Hotel in the late afternoon/early evening"
     ],
-    "included": [
-      "Private air-conditioned car",
-      "English-speaking driver/guide",
-      "Water sports equipment & safety gear",
-      "Lunch",
-      "Fuel & parking fees",
-      "Beach access fees"
+    "includes": [
+      "Pick-up and Drop-off Service",
+      "English Speaking Driver",
+      "Mineral Water and Snacks in the Car",
+      "Private Transportation",
+      "Air-Conditioned Vehicle",
+      "Parking Fees",
+      "Fuel"
     ],
-    "not_included": [
-      "Personal expenses",
-      "Travel insurance",
-      "Tips for the driver/guide"
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities",
+      "Entrance Tickets"
     ],
-    "price": "From IDR 500K / person",
-    "note": "Perfect for adventure seekers and beach lovers.",
-    "whatsappText": "Hello! I’m interested in booking the Nusa Dua Beach & Water Sports Adventure. Could you provide more info?",
+    "price": "IDR 700.000 / car",
+    "note": "Focuses on culture, art, and agritourism. Suitable for lovers of art, local culinary experiences, and natural waterfalls.",
+    "whatsappText": "Hello, I'm interested in the Central Bali Cultural Trail package. Can you help me book it?",
     "gallery": [
-      "/nusaduabeach.jpg",
-      "/jetski.jpg",
-      "/parasailing.jpg",
-      "/bananaboat.jpg",
-      "/beachlunch.jpg"
+      "/barong.webp",
+      "/batuantemple.jpg",
+      "/kantolampo.jpg",
+      "/coffeeluak.jpg",
+      "/silver-art.jpg"
     ]
   },
+
   {
     "id": 3,
-    "title": "Tanah Lot & Tabanan Rice Terrace Tour",
-    "duration": "7 hours",
-    "image": "/tanahlot.jpg",
-    "description": "Explore Bali’s iconic sea temple, Tanah Lot, and enjoy the breathtaking Tabanan rice terraces. Perfect for nature lovers and photography enthusiasts.",
+    "title": "North Ubud Tranquility: Holy Temple, Traditional Village & Iconic Rice Terraces",
+    "duration": "8 - 10 Hours",
+    "category": "Bali Day Tour",
+    "image": "/ubud-tirtaempul.jpg",
+    "description": "Experience the spiritual peace and eternal cultural heritage of North Ubud. Visit the sacred Tirta Empul Temple, explore the architectural beauty of Penglipuran Traditional Village, and enjoy the panoramic view of Tegalalang rice fields.",
     "highlight": [
-      "Tanah Lot Temple",
-      "Tabanan Rice Terrace",
-      "Sunset Views",
-      "Cultural Villages",
-      "Photography Spots"
+      "Tirta Empul Temple",
+      "Penglipuran Traditional Village",
+      "Tegalalang Rice Terrace",
+      "Ubud Palace & Market"
     ],
     "program": [
-      "Pick-up from hotel",
-      "Visit Tabanan Rice Terrace for scenic views",
-      "Stop at cultural villages to explore local life",
-      "Visit Tanah Lot Temple and enjoy sunset views",
-      "Return to hotel"
+      "Hotel pick-up and begin the journey in the morning towards the Tampaksiring region.",
+      "Visit Tirta Empul Temple: A spiritual visit to the holy water temple. Here, you can observe or participate in the purification ritual (Melukat) in the sacred pool.",
+      "Continue the trip to Penglipuran Traditional Village: Explore the cleanest traditional village in the world, see the unique traditional house architecture and peaceful village culture.",
+      "Head to Tegalalang Rice Terrace: Enjoy the iconic and charming view of the cascading rice fields. This area is also the Free Time for Lunch, where you can dine at a restaurant overlooking the rice fields.",
+      "Proceed to Ubud Palace & Market: Explore Puri Ubud and the lively Ubud Art Market, free time to experience the local cultural atmosphere and shop for crafts and souvenirs.",
+      "Return journey to the Hotel in the late afternoon/early evening."
     ],
-    "included": [
-      "Private car and driver",
-      "Entrance fees to attractions",
-      "English-speaking guide",
-      "Fuel & parking",
-      "Mineral water"
+    "includes": [
+      "Pick-up and Drop-off Service",
+      "English Speaking Driver",
+      "Mineral Water and Snacks in the Car",
+      "Private Transportation",
+      "Air-Conditioned Vehicle",
+      "Parking Fees",
+      "Fuel"
     ],
-    "not_included": [
-      "Personal expenses",
-      "Lunch & drinks",
-      "Tips"
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities",
+      "Entrance Tickets"
     ],
-    "price": "From IDR 600K / person",
-    "note": "Ideal for travelers who love nature and cultural photography.",
-    "whatsappText": "Hello! I’m interested in booking the Tanah Lot & Tabanan Rice Terrace Tour. Can you share more details?",
+    "price": "IDR 700.000 / car",
+    "note": "Focuses on spirituality, traditional villages, and the nature of North Ubud. Suitable for those seeking peace and cultural heritage.",
+    "whatsappText": "Hello, I'm interested in the North Ubud Tranquility package. Can you help me book it?",
     "gallery": [
-      "/tanahlot.jpg",
-      "/tabananrice.jpg",
-      "/villages.jpg",
-      "/sunsettanahlot.jpg",
-      "/photospot.jpg"
+      "/tirtaempul.jpg",
+      "/penglipuran.jpg",
+      "/tegalalang.jpg",
+      "/ubudmarket.jpg"
+    ]
+  },
+
+  {
+    "id": 4,
+    "title": "Echo of History & Tukad Cepung: Ubud Adventure & Cave Magic",
+    "duration": "8 - 10 Hours",
+    "category": "Bali Day Tour",
+    "image": "/ubud-tukadcepung.jpg",
+    "description": "This package combines wildlife, ancient archaeological sites, and hidden natural wonders. Experience a jungle adventure in central Ubud and discover the spectacular waterfall inside a cave.",
+    "highlight": [
+      "Ubud Monkey Forest",
+      "Goa Gajah Temple (Elephant Cave)",
+      "Tukad Cepung Waterfall",
+      "Ubud Palace & Art Market"
+    ],
+    "program": [
+      "Hotel pick-up and begin the journey in the morning towards central Ubud.",
+      "Explore Ubud Monkey Forest: Explore the unique and shady monkey forest in the heart of the city.",
+      "Continue to Goa Gajah Temple (Elephant Cave): Visit the archaeological site with ancient cave architecture dating back to the 9th century.",
+      "Head to Tukad Cepung Waterfall: Explore the waterfall hidden inside a cave, ideal during midday to catch dramatic sunbeam effects (Free time for lunch in this area).",
+      "In the afternoon, explore Ubud Palace & Art Market: Visit the palace and the bustling art market in the city center, free time to shop for crafts and souvenirs.",
+      "Return journey to the Hotel in the late afternoon/early evening."
+    ],
+    "includes": [
+      "Pick-up and Drop-off Service",
+      "English Speaking Driver",
+      "Mineral Water and Snacks in the Car",
+      "Private Transportation",
+      "Air-Conditioned Vehicle",
+      "Parking Fees",
+      "Fuel"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities",
+      "Entrance Tickets"
+    ],
+    "price": "IDR 700.000 / car",
+    "note": "Focuses on nature adventure, history, and unique photo opportunities. The route flows from Central Ubud to the East (Gianyar) and returns.",
+    "whatsappText": "Hello, I'm interested in the Echo of History & Tukad Cepung package. Can you help me book it?",
+    "gallery": [
+      "/monkeyforest.jpg",
+      "/goagajah.jpg",
+      "/tukadcepung.jpg",
+      "/ubudmarket.jpg"
+    ]
+  },
+
+  {
+    "id": 5,
+    "title": "West Bali Beauty: Lake, World Heritage Rice Fields & Tanah Lot Sunset",
+    "duration": "10 - 12 Hours",
+    "category": "Bali Day Tour",
+    "image": "/tanahlot-jatiluwih.jpg",
+    "description": "An epic journey to the highlands of Bali. Enjoy the panorama of Lake Beratan, explore the UNESCO heritage rice terraces in Jatiluwih, and end the day with a stunning sunset view at Tanah Lot Temple.",
+    "highlight": [
+      "Wanagiri Hills & Handara Gate",
+      "Ulun Danu Beratan Temple",
+      "Jatiluwih Rice Terraces",
+      "Tanah Lot Temple (Sunset)"
+    ],
+    "program": [
+      "Hotel pick-up and begin the journey in the morning towards North Bali",
+      "Express your photo style at Wanagiri Hills and Handara Gate (Iconic photo spots in the mountain area)",
+      "Continue to Ulun Danu Beratan Temple: Explore the Temple that stands beautifully on the shore of Lake Beratan",
+      "Lunch Time: Enjoy lunch at a local restaurant with views of the surrounding lake or mountains",
+      "Trekking at Jatiluwih Rice Terraces: Explore the rice terraces recognized as a UNESCO World Cultural Heritage site",
+      "In the late afternoon, head to Tanah Lot Temple: Explore the Temple located amidst the sea while waiting for and enjoying the sunset view",
+      "Return to the hotel safely and comfortably"
+    ],
+    "includes": [
+        "Pick-up and Drop-off Service",
+        "English Speaking Driver",
+        "Mineral Water and Snacks in the Car",
+        "Private Transportation",
+        "Air-Conditioned Vehicle",
+        "Parking Fees",
+        "Fuel"
+      ],
+    "excludes": [
+        "Personal Expenses",
+        "Tips and Gratuities",
+        "Entrance Tickets"
+      ],
+    "price": "IDR 850.000 / car",
+    "note": "This route is a long full-day tour (Bedugul-Jatiluwih-Tanah Lot), the price is slightly higher due to the long distance traveled.",
+    "whatsappText": "Hello, I'm interested in the West Bali Beauty (Tanah Lot Sunset) package. Can you help me book it?",
+    "gallery": [
+      "/ulundanuberatan.jpg",
+      "/handaragate.jpg",
+      "/jatiluwih.jpg",
+      "/tanahlotsunset.jpg"
+    ]
+  },
+
+  {
+    "id": 6,
+    "title": "East Bali Exoticism: Gate of Heaven, Water Palaces & Virgin Beach",
+    "duration": "10 - 12 Hours",
+    "category": "Bali Day Tour",
+    "image": "/lempuyang-tirtagangga.jpg",
+    "description": "An extraordinary journey to the east of Bali, focusing on royal heritage and natural beauty. Visit Lempuyang Temple, famous for the Gate of Heaven, two historic water palaces, and enjoy relaxing time at the virgin beach.",
+    "highlight": [
+      "Pura Lempuyang (Gate of Heaven)",
+      "Tirta Gangga Water Palace",
+      "Taman Ujung Sukasada",
+      "Virgin Beach (Pantai Perawan)"
+    ],
+    "program": [
+      "Hotel pick-up very early in the morning to avoid long queues at Lempuyang Temple",
+      "Journey towards East Bali",
+      "Visit Pura Lempuyang (Gate of Heaven): Take the iconic photo with Mount Agung in the background",
+      "Continue to Tirta Gangga Water Palace: Explore the water palace with beautiful fish ponds and water gardens",
+      "Lunch Time: Enjoy lunch at a local restaurant in the Karangasem area",
+      "Visit Taman Ujung Sukasada: Explore the floating water palace, a relic of the Karangasem kingdom",
+      "In the afternoon, relax at Virgin Beach: Enjoy the tranquil white sand beach",
+      "Return to the hotel safely and comfortably"
+    ],
+    "includes": [
+        "Pick-up and Drop-off Service",
+        "English Speaking Driver",
+        "Mineral Water and Snacks in the Car",
+        "Private Transportation",
+        "Air-Conditioned Vehicle",
+        "Parking Fees",
+        "Fuel"
+      ],
+    "excludes": [
+        "Personal Expenses",
+        "Tips and Gratuities",
+        "Entrance Tickets"
+    ],
+    "price": "IDR 900.000 / car",
+    "note": "This is the longest route (10-12 hour Full Day Tour). Pick-up must be done very early (around 06:00-07:00 AM) to get a reasonable queue time at Lempuyang Temple.",
+    "whatsappText": "Hello, I'm interested in the East Bali Exoticism (Lempuyang) package. Can you help me book it?",
+    "gallery": [
+      "/lempuyang.jpg",
+      "/tirtagangga.jpg",
+      "/tamanujung.jpg",
+      "/virginbeach.jpg"
+    ]
+  },
+
+  {
+    "id": 7,
+    "title": "Dolphin Adventure & The Beauty of Lake Beratan Temple",
+    "duration": "12 - 14 Hours",
+    "category": "Bali Day Tour",
+    "image": "/alingaling-dolphin.jpg",
+    "description": "Experience the thrill of a morning adventure watching wild dolphins in Lovina. Followed by a nature challenge at Aling-Aling Waterfall, enjoying the cool twin lake view, and visiting the iconic floating temple on Lake Beratan.",
+    "highlight": [
+      "Dolphin Watching Lovina Beach",
+      "Aling-Aling Waterfall",
+      "Twin Lake View",
+      "Pura Ulun Danu Beratan"
+    ],
+    "program": [
+      "Hotel pick-up very early in the morning to reach Lovina before sunrise",
+      "Dolphin Watching Lovina Beach: Take a traditional boat to witness wild dolphins dancing in the North Bali sea during sunrise",
+      "After a light breakfast, continue to the waterfall area",
+      "Visit Aling-Aling Waterfall: Explore the waterfall complex that offers the opportunity for natural sliding or jumping (accompanied by a local guide)",
+      "Continue the journey south through the mountains",
+      "Stop briefly at Twin Lake View (Buyan & Tamblingan Lakes): Enjoy the twin lake view and the cool mountain air (This area is also Free Time for Lunch)",
+      "Visit Pura Ulun Danu Beratan: Explore the iconic temple that stands on the shore of Lake Beratan in the cool climate of Bedugul",
+      "Return to the hotel safely and comfortably"
+    ],
+    "includes": [
+        "Pick-up and Drop-off Service",
+        "English Speaking Driver",
+        "Mineral Water and Snacks in the Car",
+        "Private Transportation",
+        "Air-Conditioned Vehicle",
+        "Parking Fees",
+        "Fuel"
+      ],
+    "excludes": [
+        "Personal Expenses",
+        "Tips and Gratuities",
+        "Entrance Tickets"
+    ],
+    "price": "IDR 950.000 / car",
+    "note": "This is the longest route with the earliest departure. Aling-Aling entrance fees (including mandatory local guide for water activities) are not included.",
+    "whatsappText": "Hello, I'm interested in the Dolphin Adventure & Lake Beratan Temple package. Can you help me book it?",
+    "gallery": [
+      "/lovina.jpg",
+      "/alingaling.jpg",
+      "/buyantamblingan.jpg",
+      "/ulundanuberatan.jpg"
+    ]
+  },
+
+  {
+    "id": 11,
+    "title": "Melukat Experience: Self-Purification at Tirta Empul & Beji Griya Holy Water",
+    "category": "Bali Activities",
+    "duration": "4 - 6 Hours (Total Including Transfer)",
+    "image": "/melukat-purification.jpg",
+    "description": "Experience a spiritual cleansing journey through the traditional Balinese Melukat ritual. This activity is designed for physical, mental, and spiritual purification. You have the freedom to choose the sacred location that resonates most with you. Available Melukat location choices include: Tirta Empul Temple, famous for its holy springs. Or Beji Griya Waterfall which combines natural beauty with sacred tradition.",
+    "program": [
+      "Hotel pick-up and travel to the selected Melukat location (Tirta Empul Temple or Beji Griya)",
+      "Arrive at the location, preparation to wear sarong and special cloth, and a brief introduction to the ritual",
+      "Perform the Melukat self-purification ceremony in the sacred pool or waterfall, guided by a local facilitator",
+      "After the ritual, clean up and change clothes",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "English Speaking Driver",
+      "Entrance Ticket",
+      "Ritual Offerings (Sesajen Ritual)",
+      "Sarong/Special Ritual Cloth",
+      "Local Guide/Facilitator",
+      "Locker Access"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Comfortable Clothes",
+        "Change of Clothes",
+        "Towel",
+        "Comfortable Shoes or Sandals"
+    ],
+    "price": "IDR 450,000 / person",
+    "note": "Price varies depending on the location and number of participants. Price details per person:\n\nTirta Empul Temple (or similar location):\n- 4 People or More: IDR 500,000/Pax\n- 3 People: IDR 600,000/Pax\n- 2 People: IDR 700,000/Pax\n\nBeji Griya Waterfall:\n- 4 People or More: IDR 650,000/Pax\n- 3 People: IDR 800,000/Pax\n- 2 People: IDR 900,000/Pax",
+    "whatsappText": "Hello, I am interested in the Traditional Self-Purification Ceremony (Melukat) package. Can you help with booking?",
+    "gallery": [
+      "/melukat-1.jpg",
+      "/melukat-2.jpg"
+    ]
+  },
+
+  {
+    "id": 12,
+    "title": "Chasing Dolphins: Sunrise Dolphin Watching Lovina",
+    "category": "Bali Activities",
+    "duration": "7 - 10 Hours (Total Including Transfer to Lovina)",
+    "image": "/dolphin-sunrise.jpg",
+    "description": "Enjoy a morning adventure at the tranquil Lovina Beach, home to friendly wild dolphins. Ride a traditional Balinese boat (Jukung) before sunrise and witness a pod of dolphins leaping in their natural habitat, against the backdrop of a stunning sunrise. This tour offers a perfect blend of natural beauty, cultural experience, and a peaceful start to your day in Bali.",
+    "program": [
+      "Early morning pick-up (around 03:00-03:30 AM) from the hotel",
+      "Land travel to Lovina Beach in North Bali",
+      "Receive Safety Briefing and board the traditional boat (Jukung)",
+      "Witness a pod of wild dolphins during sunrise (Dolphin Watching)",
+      "Opportunity to Swim Near the Dolphins",
+      "Return to the beach, Lunch, and return transfer to the hotel"
+    ],
+    "includes": [
+      "English Speaking Driver",
+      "Entrance Ticket & Boat Rental Fee",
+      "Safety Briefing",
+      "Activity Insurance",
+      "Lunch",
+      "Dolphin Watching Activity",
+      "Opportunity to Swim Near Dolphins"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Sunscreen",
+        "Change of Clothes",
+        "Camera",
+        "Towel"
+    ],
+    "price": "Starting from IDR 650,000 / person",
+    "note": "Price is based on the selected travel mode:\n\n- Sharing Boat: IDR 650,000/Pax\n- Private Boat: IDR 800,000/Pax\n\n(Minimum Booking 2 people)",
+    "whatsappText": "Hello, I am interested in the Sunrise Dolphin Watching Lovina package. I plan to choose [SHARING/PRIVATE] mode for [NUMBER] people. Please advise on availability and booking.",
+    "gallery": [
+      "/dolphin-1.jpg",
+      "/dolphin-2.jpg",
+      "/dolphin-3.jpg"
+    ]
+  },
+
+  {
+    "id": 13,
+    "title": "Sunrise Thrill: Mount Batur Sunrise & Black Lava Jeep Adventure",
+    "category": "Bali Activities",
+    "duration": "8 - 10 Hours (Total Including Transfer)",
+    "image": "/batur-jeep.jpg",
+    "description": "Enjoy an amazing morning adventure on Mount Batur! Ride a 4WD Jeep to the best viewpoint to witness the mesmerizing sunrise. After enjoying the dawn, explore the vast expanse of unique black lava fields, remnants of past volcanic eruptions. This tour offers a perfect blend of natural beauty, extreme experience, and a glimpse into Bali's volcanic history.",
+    "program": [
+      "Early morning pick-up (around 03:00-04:00 AM) from the hotel",
+      "Travel to Kintamani and transfer to the 4x4 Jeep",
+      "Jeep ride to the best spot to witness the Mount Batur Sunrise",
+      "Enjoy Coffee & Tea and Light Breakfast while enjoying the dawn view",
+      "Exploration of the unique Black Lava area by Jeep",
+      "Return to the Jeep starting point and drop-off back at the hotel"
+    ],
+    "includes": [
+      "English Speaking Driver",
+      "Entrance Ticket",
+      "4x4 Jeep Vehicle",
+      "Experienced Jeep Driver",
+      "Insurance Coverage by the Jeep Operator",
+      "Coffee & Tea",
+      "Light Breakfast"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Sports Shoes or Closed Shoes",
+        "Thick Jacket (Very important due to the cold)",
+        "Gloves/Beanie Hat",
+        "Camera (for dramatic Black Lava photos)",
+        "Cash (for personal needs)"
+    ],
+    "price": "Starting from IDR 650,000 / person",
+    "note": "Price varies depending on the type of Jeep selected. Minimum booking of 2 people.\n\n- Long Jeep (Max 6 pax): IDR 650,000/Pax\n- 4x4 Jeep (Short Jeep, Max 3 pax): IDR 850,000/Pax",
+    "whatsappText": "Hello, I am interested in the Mount Batur Sunrise & Black Lava Jeep Experience package. I want to choose the [JEEP 4X4/LONG JEEP] option for [NUMBER] people. Please advise on availability.",
+    "gallery": [
+      "/batur-jeep-1.jpg",
+      "/batur-jeep-2.jpg",
+      "/batur-jeep-3.jpg"
+    ]
+  },
+
+  {
+    "id": 14,
+    "title": "Dawn Challenge: Mount Batur Sunrise Summit Trekking",
+    "category": "Bali Activities",
+    "duration": "8 - 10 Hours (Total Including Transfer)",
+    "image": "/batur-hiking.jpg",
+    "description": "Experience the challenge and satisfaction of climbing Mount Batur in the dark to witness the legendary sunrise from its peak (1,717 meters above sea level). This climb is guided by a professional guide and is suitable for intermediate hikers. The view of the Batur Caldera, Lake Batur, and Mount Agung at dawn is a priceless reward for your effort.",
+    "program": [
+      "Early morning pick-up (around 01:30-02:30 AM) from the hotel",
+      "Arrive at the starting point and receive Safety Briefing from the Guide",
+      "Begin the climb (trekking) to the Mount Batur Summit (approx. 2 hours)",
+      "Enjoy the Sunrise while having a Light Breakfast",
+      "Descend back to the starting point (approx. 1.5 hours)",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "English Speaking Driver",
+      "Licensed Trekking Guide",
+      "Entrance Ticket",
+      "Insurance by the Trekking Operator",
+      "Light Breakfast at the Summit",
+      "Coffee & Tea",
+      "Mineral Water"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities",
+      "Trekking Pole Rental"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Special Hiking Shoes",
+        "Warm Jacket",
+        "Long Pants",
+        "Small Backpack",
+        "Camera",
+        "Gloves/Beanie Hat"
+    ],
+    "price": "Starting from IDR 600,000 / person",
+    "note": "Price varies depending on the selected trekking mode. Minimum booking of 2 people.\n\n- Sharing Trekking (Joining another group): IDR 600,000/Pax\n- Private Trekking: IDR 800,000/Pax",
+    "whatsappText": "Hello, I am interested in the Mount Batur Sunrise Hiking Experience package. I want to choose the [SHARING/PRIVATE] option for [NUMBER] people. Please advise on availability.",
+    "gallery": [
+      "/batur-hike-1.jpg",
+      "/batur-hike-2.jpg",
+      "/batur-hike-3.jpg"
     ]
   },
   {
-    "id": 4,
-    "title": "Jimbaran Seafood & Uluwatu Cultural Experience",
-    "duration": "5 hours",
-    "image": "/jimbaranseafood.jpg",
-    "description": "Experience the perfect blend of culture and cuisine in Bali. Visit Uluwatu Temple, enjoy a traditional Kecak dance, and end the day with a sumptuous seafood dinner at Jimbaran Bay.",
-    "highlight": [
-      "Uluwatu Temple Visit",
-      "Kecak Dance Performance",
-      "Jimbaran Seafood Dinner",
-      "Sunset Views",
-      "Private Transportation"
-    ],
+    "id": 15,
+    "title": "Underwater Exploration: Snorkeling at Blue Lagoon & Tanjung Jepun",
+    "category": "Bali Activities",
+    "duration": "6 - 8 Hours (Total Including Transfer)",
+    "image": "/blue-lagoon-snorkeling.jpg",
+    "description": "Dive into the clear and calm waters of Blue Lagoon, Padangbai. Known as one of the best snorkeling spots in Bali, Blue Lagoon offers a rich diversity of healthy coral reefs and colorful tropical fish. You will visit two locations: the beautiful Blue Lagoon and Tanjung Jepun, ensuring a maximum underwater experience. This activity is suitable for beginners to experts.",
     "program": [
-      "Pick-up from hotel",
-      "Visit Uluwatu Temple",
-      "Watch Kecak Dance performance at sunset",
-      "Seafood dinner at Jimbaran Bay",
-      "Return to hotel"
+      "Hotel pick-up and travel to Padangbai (East Bali)",
+      "Arrive at Padangbai, receive Safety Briefing and get snorkeling equipment",
+      "Traditional boat departs for Blue Lagoon for the first snorkeling session (approx. 1 hour)",
+      "Continue to Tanjung Jepun for the second snorkeling session (approx. 1 hour)",
+      "Return to the beach, enjoy Lunch",
+      "Return transfer to the hotel"
     ],
-    "included": [
-      "Private air-conditioned car",
-      "English-speaking driver/guide",
-      "Dinner at Jimbaran",
-      "Entrance fees to Uluwatu Temple",
-      "Fuel & parking"
+    "includes": [
+      "English Speaking Driver",
+      "Traditional Snorkeling Boat",
+      "Complete Snorkeling Equipment",
+      "Life Jacket",
+      "Professional Snorkeling Guide",
+      "Lunch",
+      "Mineral Water"
     ],
-    "not_included": [
-      "Personal expenses",
-      "Travel insurance",
-      "Tips for guide"
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
     ],
-    "price": "From IDR 700K / person",
-    "note": "A cultural and culinary experience you won’t forget.",
-    "whatsappText": "Hello! I’m interested in booking the Jimbaran Seafood & Uluwatu Cultural Experience. Can you provide details?",
+    "whatToBring": [
+        "Payment",
+        "Sunscreen",
+        "Change of Clothes",
+        "Towel",
+        "Waterproof Camera",
+        "Cash"
+    ],
+    "price": "Starting from IDR 500,000 / person",
+    "note": "This standard price is based on group bookings. Prices may vary depending on the pick-up location (South Bali/Ubud areas) and the number of participants. Please contact us for group pricing details.",
+    "whatsappText": "Hello, I am interested in the Snorkeling at Blue Lagoon & Tanjung Jepun package. Please advise on availability and price for [NUMBER] people.",
     "gallery": [
-      "/jimbaranseafood.jpg",
-      "/uluwatutemple2.jpg",
-      "/kecakdance2.jpg",
-      "/sunsetjimbaran.jpg",
-      "/beachdinner.jpg"
+      "/snorkeling-1.jpg",
+      "/snorkeling-2.jpg"
     ]
-  }
+  },
+  {
+    "id": 16,
+    "title": "Kintamani Cycling: Downhill Bike Adventure in Balinese Villages",
+    "category": "Bali Activities",
+    "duration": "7 - 8 Hours (Total Including Transfer)",
+    "image": "/kintamani-cycling.jpg",
+    "description": "Enjoy a refreshing day cycling downhill from Kintamani. This route passes beautiful rice paddies, bamboo forests, and traditional Balinese villages, giving you an authentic view of local daily life and culture. The bike ride is relaxed, suitable for all ages and fitness levels.",
+    "program": [
+      "Hotel pick-up and travel to Kintamani",
+      "Light breakfast served with stunning views of Mount Batur",
+      "Arrive at the cycling start point, receive Safety Briefing and equipment",
+      "Begin the downhill bike ride, passing rice fields and traditional villages",
+      "Indonesian Lunch",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "English Speaking Driver",
+      "Well-maintained Mountain Bike",
+      "Safety Helmet and Safety Equipment",
+      "Professional Cycling Guide",
+      "Light Breakfast with a view",
+      "Lunch",
+      "Mineral Water"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Sports Shoes or Comfortable Shoes",
+        "Sunscreen",
+        "Camera",
+        "Cash"
+    ],
+    "price": "IDR 450,000 / person",
+    "note": "The price of IDR 450,000/person is valid for a minimum booking of 2 people. The price includes all facilities mentioned above.",
+    "whatsappText": "Hello, I am interested in the Kintamani Cycling Tour package. Please advise on availability and booking for [NUMBER] people.",
+    "gallery": [
+      "/cycling-1.jpg",
+      "/cycling-2.jpg",
+      "/cycling-3.jpg"
+    ]
+  },
+
+  {
+    "id": 17,
+    "title": "Night Mystery: Bali Zoo Night Safari Journey",
+    "category": "Bali Activities",
+    "duration": "5 - 6 Hours (Afternoon/Evening)",
+    "image": "/bali-zoo-night-safari.jpg",
+    "description": "Experience an unforgettable adventure at Bali Zoo, where the nighttime brings a unique experience. Start with a walk through the zoo, followed by a thrilling Night Safari journey inside a specialized tram to observe nocturnal animals' habits. The evening concludes with a dazzling African fire dance performance and a chance to interact directly with some exotic animals.",
+    "program": [
+      "Afternoon pick-up from the hotel",
+      "Arrive at Bali Zoo and receive the Night Safari Journey ticket",
+      "Safari Walk through the zoo area",
+      "Witness the Animal Encounter & Show",
+      "Night Safari Journey exploring the life of nocturnal animals",
+      "Exclusive Dinner in a unique area",
+      "Watch The Rhythm of African Fire Dance Show",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "English Speaking Driver",
+      "Bali Zoo Entrance Ticket",
+      "Night Safari Journey + 1x Safari Walk",
+      "The Rhythm of African Fire Dance Show",
+      "Animal Encounter & Show",
+      "Bali Zoo Insurance",
+      "Dinner",
+      "Mineral Water"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities",
+      "Other activities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Camera",
+        "Comfortable and Dark Clothing",
+        "Comfortable Shoes for walking",
+        "Cash"
+    ],
+    "price": "IDR 1,500,000 / person",
+    "note": "The price of IDR 1,500,000/Pax is the price per person for the Night Safari Journey package (Minimum 2 Pax). The price includes private hotel transfers.",
+    "whatsappText": "Hello, I am interested in the Bali Zoo Night Safari Journey package. Please advise on availability and booking for [NUMBER] people.",
+    "gallery": [
+      "/night-safari-1.jpg",
+      "/night-safari-2.jpg"
+    ]
+  },
+
+  {
+    "id": 19,
+    "title": "Bali Rafting Adventure: Conquering the Ayung River",
+    "category": "Bali Activities",
+    "duration": "6 - 7 Hours (Total Including Transfer)",
+    "image": "/bali-rafting.jpg",
+    "description": "Get ready for an adrenaline-pumping journey down one of Bali's most beautiful rivers. With professional guidance, you will pass through lush tropical forests, beautiful waterfalls, and conquer challenging rapids. This activity is suitable for all levels and guarantees total fun. After completing the track, enjoy a delicious buffet lunch to perfectly complement the blend of adventure and relaxation.",
+    "program": [
+      "Hotel pick-up and travel to the Rafting location",
+      "Arrive at the location, Safety Briefing from a professional guide",
+      "Put on safety equipment and start the Rafting adventure on the river",
+      "Enjoy views of the jungle, waterfalls, and river rapids",
+      "Arrive at the finish point, clean up at the Changing Room & Shower",
+      "Enjoy Lunch",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "English Speaking Driver",
+      "Entrance Ticket",
+      "Safety Briefing",
+      "Rafting Safety Equipment",
+      "Experienced Rafting Guide",
+      "Activity Insurance",
+      "Changing Room & Shower",
+      "Towel & Locker"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Shoes and Sandals Safe for Water",
+        "Change of Clothes",
+        "Sunscreen",
+        "Waterproof Camera"
+    ],
+    "price": "Starting from IDR 550,000 / person",
+    "note": "Price varies depending on the selected transfer mode. Minimum booking of 2 people.\n\n- Sharing Transport (Joining a Group): IDR 550,000/Pax\n- Private Transport (Private Car): IDR 850,000/Pax\n\n**Additional Note:** For pick-ups outside the Jimbaran, Nusadua, Uluwatu, and Pecatu areas, an extra charge of IDR 200K per car applies.",
+    "whatsappText": "Hello, I am interested in the Bali Rafting Adventure: Conquering the Ayung River package. I want to choose the [SHARING/PRIVATE] option for [NUMBER] people. Please advise on availability.",
+    "gallery": [
+      "/rafting-1.jpg",
+      "/rafting-2.jpg",
+      "/rafting-3.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Adrenaline Off-Road: Bali Buggy UTV Ride Adventure",
+    "category": "Bali Activities",
+    "duration": "4 - 5 Hours (Total Including Transfer)",
+    "image": "/bali-utv-buggy.jpg",
+    "description": "Experience the thrilling adventure of riding a Buggy or UTV through challenging off-road tracks. Your route will pass through lush tropical forests, rice fields, muddy paths, and rocky terrain. This activity is highly adrenaline-pumping and suitable for those seeking extreme excitement in the open nature of Bali.",
+    "program": [
+      "Hotel pick-up and travel to the UTV/Buggy location",
+      "Arrive at the location, receive Safety Briefing and driving equipment",
+      "UTV/Buggy Ride Session (Duration ±1 to 1.5 hours) on off-road terrain",
+      "Clean up at the changing room and shower facilities",
+      "Enjoy Lunch",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "English Speaking Driver",
+      "Buggy UTV Vehicle",
+      "Complete Safety Equipment",
+      "Professional Off-Road Guide",
+      "Activity Insurance",
+      "Changing Room & Shower Facilities"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Complete Change of Clothes",
+        "Closed Shoes",
+        "Sunscreen",
+        "Camera"
+    ],
+    "price": "IDR 1,500,000 / person",
+    "note": "Price varies depending on the selected driving mode (Minimum 2 Pax for Tandem):\n\n- Single Ride (1 person in 1 Buggy): IDR 1,500,000 / Pax\n- Tandem Ride (2 people in 1 Buggy): IDR 2,000,000 / 2 Pax",
+    "whatsappText": "Hello, I am interested in the Bali Buggy UTV Ride Adventure package. I want to choose the [SINGLE RIDE/TANDEM RIDE] option for [NUMBER] people. Please advise on availability.",
+    "gallery": [
+      "/utv-buggy-1.jpg",
+      "/utv-buggy-2.jpg"
+    ]
+  },
+
+  {
+    "id": 21,
+    "title": "Adrenaline 4x4: Bali ATV Quad Bike Jungle & Rice Field Adventure",
+    "category": "Bali Activities",
+    "duration": "4 - 5 Hours (Total Including Transfer)",
+    "image": "/bali-atv.jpg",
+    "description": "Experience the thrill of riding an ATV Quad Bike through various challenging terrains: dense jungle, rice fields, muddy tracks, rivers, and even an artificial cave. This activity provides maximum freedom and excitement for both single and tandem riders, perfect for those who want to explore Bali's nature in an extreme way.",
+    "program": [
+      "Hotel pick-up and travel to the ATV location",
+      "Arrive at the location, receive Safety Briefing and driving equipment",
+      "ATV Quad Bike Ride Session (Duration ±1.5 to 2 hours)",
+      "Clean up at the changing room and shower facilities",
+      "Enjoy Indonesian Lunch",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "English Speaking Driver",
+      "ATV Quad Bike Vehicle",
+      "Complete Safety Equipment",
+      "Experienced Local Guide",
+      "Activity Insurance",
+      "Changing Room & Shower Facilities"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Complete Change of Clothes",
+        "Closed Shoes",
+        "Sunscreen",
+        "Camera"
+    ],
+    "price": "Starting from IDR 750,000 / person",
+    "note": "Price varies depending on the selected riding mode:\n\n- Single Ride (1 person on 1 ATV): IDR 750,000 / Pax\n- Tandem Ride (2 people on 1 ATV): IDR 1,300,000 / 2 Pax",
+    "whatsappText": "Hello, I am interested in the Bali ATV Quad Bike Adventure package. I want to choose the [SINGLE RIDE/TANDEM RIDE] option for [NUMBER] people. Please advise on availability.",
+    "gallery": [
+      "/atv-1.jpg",
+      "/atv-2.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Spiritual Healing Journey in Ubud",
+    "category": "Bali Activities",
+    "duration": "4 - 5 Hours (Total Including Transfer)",
+    "image": "/bali-healing.jpg",
+    "description": "Experience inner peace and energy cleansing through a traditional Balinese spiritual healing session in Ubud. This package offers various services ranging from the Melukat ceremony to palm reading and trauma healing. Guided by a local healer, this journey aims to balance your chakras and open your aura.",
+    "program": [
+      "Hotel pick-up and travel to the healing center/water temple in Ubud",
+      "Receive Briefing and change clothes (Sarong)",
+      "Perform the selected consultation and ceremony service (Duration 20-60 minutes)",
+      "Session guided by a licensed Healer",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "Personal Service and Consultation by the Healer",
+      "Self-Purification Ritual (Melukat)",
+      "Provision of Sarong and Sash",
+      "Flowers and Ceremonial Supplies",
+      "Mineral Water"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities",
+      "Additional services outside the package"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Change of Clothes",
+        "Comfortable Shoes"
+    ],
+    "price": "Starting from IDR 600,000 / person",
+    "note": "Price varies depending on the selected Spiritual/Healing service:\n\n1. Melukat (Purification): IDR 600K\n2. Palm Reading: IDR 750K\n3. Palm Reading + Melukat: IDR 1.000K\n4. Open Aura, Chakra & Trauma Healing: IDR 1.050K\n5. Option 4 + Melukat: IDR 1.300K\n6. Palm Reading, Open Aura & Trauma Healing: IDR 1.500K\n7. FULL PACKAGE (All Services): IDR 1.700K\n\n(Note: Healer service duration is ±20-60 minutes depending on the option.)",
+    "whatsappText": "Hello, I am interested in the Spiritual Soul Healing Journey in Ubud package. I want to choose option [OPTION NUMBER] for [NUMBER] people. Please advise on availability.",
+    "gallery": [
+      "/healing-1.jpg",
+      "/healing-2.jpg"
+    ]
+  },
+
+  {
+    "id": 23,
+    "title": "Bali Jungle Swing: Iconic Swing Above the Forest Valley",
+    "category": "Bali Activities",
+    "duration": "4 - 5 Hours (Total Including Transfer)",
+    "image": "/bali-swing.jpg",
+    "description": "Get the most iconic experience and photos in Bali by swinging at an extreme height, right above the Tegalalang tropical forest valley. This package includes access to various types of swings and famous photo spots, offering unbeatable natural views.",
+    "program": [
+      "Hotel pick-up and travel to the Swing location in Ubud/Tegalalang",
+      "Arrive at the location and receive Safety Briefing",
+      "Access to various types of swings (Single, Tandem, Extreme) and Photo Spots",
+      "Free time to enjoy the view and take photos",
+      "Enjoy Lunch / Drinks",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "English Speaking Driver",
+      "Entrance Ticket & Location Insurance",
+      "Access to All Types of Swings",
+      "Safety Equipment",
+      "Local Guide"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Attractive Clothing (for photo session)",
+        "Sunscreen",
+        "Personal Camera",
+        "Cash"
+    ],
+    "price": "Starting from IDR 500,000 / person",
+    "note": "Price varies depending on the number of participants. The prices below are per person:\n\n- 2 - 3 Persons: IDR 600,000 / person (USD 40)\n- 4 - 6 Persons: IDR 500,000 / person (USD 33)\n\n(Note: Price includes all facilities mentioned.)",
+    "whatsappText": "Hello, I am interested in the Bali Jungle Swing Tegalalang package. Please advise on availability and price details for [NUMBER] people.",
+    "gallery": [
+      "/swing-1.jpg",
+      "/swing-2.jpg"
+    ]
+  },
+
+  {
+    "id": 24,
+    "title": "Sea Adventure: The Most Complete Bali Watersport Package (Nusa Dua)",
+    "category": "Bali Activities",
+    "duration": "6 - 8 Hours (Total Including Transfer)",
+    "image": "/bali-watersport.jpg",
+    "description": "Enjoy a day full of action and excitement with the best Watersport package selection in Bali. Starting from the adrenaline-pumping Parasailing Adventure to the unique Sea Walker, this package offers a perfect combination of thrilling water activities in the calm waters of Tanjung Benoa. Suitable for all levels of adventurers!",
+    "program": [
+      "Hotel pick-up and travel to Tanjung Benoa/Nusa Dua",
+      "Arrive at the location, receive Safety Briefing",
+      "Execute the selected range of Watersport activities (according to package I to VI)",
+      "Clean up at the Changing Room & Shower, receive a Towel",
+      "Enjoy Lunch",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "English Speaking Driver",
+      "Professional Bali Watersport Guide",
+      "Safety Equipment",
+      "Insurance for Bali Watersport",
+      "Lunch",
+      "Towel and Changing Room",
+      "Safety Briefing",
+      "Changing Room & Shower Facilities",
+      "Insurance Coverage"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Swimwear / Change of Clothes",
+        "Sunscreen",
+        "Waterproof Camera",
+        "Hat or Sunglasses"
+    ],
+    "price": "Starting from IDR 1,000,000",
+    "note": "Price varies depending on the selected Watersport package. All prices are per person:\n\n1. Package I (IDR 1,000K): Parasailing Adventure, Banana Boat, Jet Ski\n2. Package II (IDR 1,200K): Sea Walker, Banana Boat, Jet Ski\n3. Package III (IDR 1,300K): Donut Boat, Banana Boat, Fly Board\n4. Package IV (IDR 1,300K): 1x Diving, Banana Boat, Fly Fish\n5. Package V (IDR 1.300K): Sea Walker, Fly Fish, Jet Ski\n6. Package VI (IDR 1,300K): Fly Board, Sea Walker, Donut Boat",
+    "whatsappText": "Hello, I am interested in the Bali Watersport package. I want to choose [PACKAGE NUMBER] for [NUMBER] people. Please advise on availability.",
+    "gallery": [
+      "/watersport-1.jpg",
+      "/watersport-2.jpg"
+    ]
+  },
+
+  {
+    "id": 25,
+    "title": "Bali Cooking Class: Learn Authentic Local Recipes",
+    "category": "Bali Activities",
+    "duration": "5 - 6 Hours (Total Including Transfer)",
+    "image": "/bali-cooking-class.jpg",
+    "description": "Join an authentic culinary journey where you will learn the art of making traditional Balinese dishes from scratch. Starting with a short visit to a local market to choose fresh ingredients, a hands-on cooking session guided by a chef, and finally enjoying your own cooked meal for lunch or dinner. This experience provides deep insight into Balinese culture and spices.",
+    "program": [
+      "Hotel pick-up and travel to the cooking class location",
+      "Visit to the traditional market (Optional, depending on schedule)",
+      "Introduction to traditional Balinese spices and ingredients",
+      "Hands-on Cooking Session with Chef guidance",
+      "Enjoy your own cooked meal (Lunch/Dinner)",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "Private Car with Bali Driver",
+      "Fuel, Parking Fee, and Toll Fee",
+      "Mineral Water for Each Passenger",
+      "Local Travel Insurance",
+      "Hands-on Cooking Instruction by a Professional Chef",
+      "All Cooking Ingredients and Equipment",
+      "Recipe Booklet",
+      "Lunch/Dinner"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Camera/Phone for Documentation",
+        "Sunscreen"
+    ],
+    "price": "Starting from IDR 550,000 / person",
+    "note": "Price varies depending on the number of participants. Prices below are per person:\n\n- 2 - 3 People: IDR 600,000 / person (USD 40)\n- 4 - 6 People: IDR 550,000 / person (USD 37)",
+    "whatsappText": "Hello, I am interested in the Bali Cooking Class package. Please advise on availability and price details for [NUMBER] people.",
+    "gallery": [
+      "/cooking-class-1.jpg",
+      "/cooking-class-2.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Bali Silver Jewelry Class: Create Your Own Work of Art",
+    "category": "Bali Activities",
+    "duration": "5 - 6 Hours (Total Including Transfer)",
+    "image": "/bali-silver-class.jpg",
+    "description": "Learn the traditional art of Balinese silver jewelry making under the guidance of skilled local artisans. You will get a hands-on experience in designing, shaping, and finishing one unique silver jewelry piece that you can take home as a valuable souvenir. A perfect activity for creativity and cultural experience.",
+    "program": [
+      "Hotel pick-up and travel to the silver studio in Ubud/Celuk",
+      "Arrive at the location and receive an introduction to traditional silver techniques",
+      "Design and Jewelry Making Session",
+      "Take home the finished silver jewelry piece",
+      "Return transfer to the hotel"
+    ],
+    "includes": [
+      "Private Car with Bali Driver",
+      "Fuel, Parking Fee, and Toll Fee",
+      "Mineral Water for Each Passenger",
+      "Local Travel Insurance",
+      "Workshop Instruction by a Professional Silversmith",
+      "Provision of Tools and Equipment",
+      "Base Silver Material",
+      "One Finished Jewelry Piece (to take home)"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Camera/Phone for Documentation",
+        "Comfortable Clothing"
+    ],
+    "price": "Starting from IDR 800,000 / person",
+    "note": "Price varies depending on the number of participants. Prices below are per person:\n\n- 2 - 3 People: IDR 850,000 / person (USD 57)\n- 4 - 6 People: IDR 800,000 / person (USD 53)\n\n(Price includes base silver material for one piece of jewelry. Additional charges apply if the weight exceeds the determined limit.)",
+    "whatsappText": "Hello, I am interested in the Bali Silver Class package. Please advise on availability and price details for [NUMBER] people.",
+    "gallery": [
+      "/silver-class-1.jpg",
+      "/silver-class-2.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Exclusive Snorkeling in Nusa Penida",
+    "category": "Bali Activities",
+    "duration": "10 - 11 Hours (Full Day Tour)",
+    "image": "/nusa-penida-snorkeling.jpg",
+    "description": "Dive into the underwater beauty of Nusa Penida with an exclusive snorkeling package to three iconic spots: Manta Bay (chance to see majestic Manta Rays), Gamat Bay (rich coral gardens and tropical fish), and Wall Point (steep coral wall full of marine life). This Full Day trip includes Fast Boat return tickets, a private boat for snorkeling, and all equipment, offering a safe and unforgettable sea adventure for nature lovers.",
+    "program": [
+      "Hotel pick-up (early morning) and transfer to Sanur harbor",
+      "Public Fastboat trip to Nusa Penida",
+      "Arrive at Penida, board a private boat for Snorkeling activities (Manta Bay, Gamat Bay, Wall Point, depending on sea conditions)",
+      "Enjoy Indonesian Lunch",
+      "Return trip to the harbor by Fastboat",
+      "Return transfer to the hotel in Bali (afternoon/evening)"
+    ],
+    "includes": [
+      "Private Car with Bali Driver",
+      "Fuel, Parking Fee, Toll Fee",
+      "Round Trip Fastboat Ticket to Nusa Penida",
+      "Private Boat for Snorkeling",
+      "Snorkeling Equipment (Fins, Mask, Life Jacket)",
+      "Captain Boat cum Professional Instructor",
+      "Mineral Water for Each Passenger",
+      "Local Travel Insurance"
+    ],
+    "excludes": [
+      "Personal Expenses",
+      "Tips and Gratuities"
+    ],
+    "whatToBring": [
+        "Payment",
+        "Swimwear / Change of Clothes",
+        "Sunscreen",
+        "Hat, Sunglasses",
+        "Waterproof Camera"
+    ],
+    "price": "Starting from IDR 800,000 / person",
+    "note": "Price varies depending on the number of participants. Prices below are per person:\n\n- 2 - 3 People: IDR 900,000 / person (USD 60)\n- 4 - 6 People: IDR 800,000 / person (USD 53)",
+    "whatsappText": "Hello, I am interested in the Bali Snorkeling in Nusa Penida package. Please advise on availability and price details for [NUMBER] people.",
+    "gallery": [
+      "/nusa-penida-snorkeling-1.jpg",
+      "/nusa-penida-snorkeling-2.jpg"
+    ]
+  },
+
+  {
+  "id": 103,
+  "title": "Iconic Exploration of West Nusa Penida",
+  "category": "Nusa Penida Tour",
+  "duration": "8 - 10 Hours (Full Day Tour)",
+  "image": "/penida-west-paradise.jpg",
+
+  "description": "Experience an iconic journey to West Nusa Penida, visiting dramatic cliffs and hidden beaches such as Kelingking Beach, Broken Beach, and Angel’s Billabong. Prices vary based on the number of participants.",
+
+  "highlight": [
+    "Kelingking Beach",
+    "Paluang Cliff",
+    "Broken Beach",
+    "Angel's Billabong",
+    "Crystal Bay"
+  ],
+
+  "program": [
+    "Meet at Sanur Beach Meeting Point for check-in and departure preparation.",
+    "Cross to Nusa Penida by fast speedboat.",
+    "Arrive in Nusa Penida and begin the land tour immediately.",
+    "First Destination: Broken Beach and Angel's Billabong, enjoying these iconic natural formations.",
+    "Continue the trip to Kelingking Beach, followed by scenic views from Paluang Cliff.",
+    "Enjoy lunch at a local restaurant provided in the package.",
+    "Visit Crystal Bay for free time to relax on the white sandy beach.",
+    "Return to the harbor.",
+    "Cross back to Sanur Beach by speedboat.",
+    "Arrive in Sanur — tour ends."
+  ],
+
+  "includes": [
+    "Round-trip Fastboat Ticket",
+    "Private Car for Island Tour",
+    "Driver as Guide",
+    "Lunch",
+    "Entrance Fees to All Destinations"
+  ],
+
+  "excludes": [
+    "Personal Expenses",
+    "Tips & Gratuities"
+  ],
+
+  "price": "Starting from IDR 300,000 / person",
+
+  "note": "The price per person becomes cheaper for larger groups (Pax):\n1 person: IDR 800,000 / Pax\n2 people: IDR 500,000 / Pax\n3 people: IDR 400,000 / Pax\n4 people: IDR 350,000 / Pax\n5 people: IDR 320,000 / Pax\n6 people: IDR 300,000 / Pax\n\nNote: Prices are all-inclusive, covering all facilities mentioned above. Fastboat departure from Sanur is at 08:00 WITA.",
+
+  "whatsappText": "Hello, I’m interested in the Iconic West Nusa Penida Tour package. Could you please check availability and pricing for [NUMBER OF PEOPLE] people?",
+
+  "gallery": [
+    "/kellingking.jpg",
+    "/broken-beach.jpg",
+    "/angels-billabong.jpg",
+    "/crystal-bay.jpg"
+  ]
+},
+
+{
+  "id": 104,
+  "title": "Exotic Exploration of East Nusa Penida",
+  "category": "Nusa Penida Tour",
+  "duration": "8 - 10 Hours (Full Day Tour)",
+  "image": "/penida-east-tour.jpg",
+
+  "description": "Discover the eastern wonders of Nusa Penida, famous for its dramatic cliffs, pristine beaches, and breathtaking viewpoints. Visit Diamond Beach, Atuh Beach, Molenteng Tree House, and the majestic panorama of Thousand Islands. Perfect for travelers seeking adventure and authentic natural beauty.",
+
+  "highlight": [
+    "Diamond Beach",
+    "Atuh Beach",
+    "Molenteng Tree House",
+    "Raja Lima / Thousand Islands Viewpoint",
+    "Teletubbies Hill"
+  ],
+
+  "program": [
+    "Meet at Sanur Harbor for check-in and preparation before departing to Nusa Penida.",
+    "Cross to Nusa Penida by fastboat.",
+    "Upon arrival, begin the land tour to the first destination.",
+    "Visit Teletubbies Hill, known for its green rolling hills and unique landscape.",
+    "Continue to the iconic Molenteng Tree House and enjoy the stunning panorama of Raja Lima/Thousand Islands.",
+    "Head to Diamond Beach to admire its impressive white cliffs and turquoise waters.",
+    "Lunch break at a local restaurant.",
+    "Visit Atuh Beach, a favorite destination with magnificent cliff formations.",
+    "Return to the harbor for the boat ride back to Sanur.",
+    "Arrive back at Sanur Harbor — tour ends."
+  ],
+
+  "includes": [
+    "Round-trip Fastboat Ticket",
+    "Private Car for Island Tour",
+    "Driver as Guide",
+    "Lunch",
+    "Entrance Fees to All Destinations"
+  ],
+
+  "excludes": [
+    "Personal Expenses",
+    "Tips & Gratuities"
+  ],
+
+  "price": "Starting from IDR 300,000 / person",
+
+  "note": "The price per person becomes more affordable for larger groups (Pax):\n1 person: IDR 800,000 / Pax\n2 people: IDR 500,000 / Pax\n3 people: IDR 400,000 / Pax\n4 people: IDR 350,000 / Pax\n5 people: IDR 320,000 / Pax\n6 people: IDR 300,000 / Pax\n\nNote: Prices are all-inclusive, covering all listed facilities. Fastboat departure from Sanur is scheduled at 08:00 WITA.",
+
+  "whatsappText": "Hello, I’m interested in the Exotic East Nusa Penida Tour package. Could you please check availability and pricing for [NUMBER OF PEOPLE] people?",
+
+  "gallery": [
+    "/diamond-beach.jpg",
+    "/atuh-beach.jpg",
+    "/raja-lima.jpg",
+    "/rumah-pohon.jpg",
+    "/bukit-teletubbies.jpg"
+  ]
+},
+
+{
+  "id": 105,
+  "title": "Exotic Combination of West & East Nusa Penida",
+  "category": "Nusa Penida Tour",
+  "duration": "10 - 12 Hours (Full Day Tour)",
+  "image": "/penida-combination.jpg",
+
+  "description": "The perfect combination package to explore the iconic beauty of Nusa Penida in just one day. You will visit favorite destinations on both the West and East sides, from dramatic cliffs and exotic beaches to the most famous photo spots such as Diamond Beach, Broken Beach, Angel Billabong, and Kelingking Beach.",
+
+  "highlight": [
+    "Diamond Beach",
+    "Broken Beach",
+    "Angel Billabong",
+    "Kelingking Beach",
+    "Paluang Cliff"
+  ],
+
+  "program": [
+    "Meet at Sanur Harbor for registration and fastboat ticket collection.",
+    "Gather and depart for Nusa Penida by fastboat.",
+    "Arrive in Nusa Penida and meet our local driver to begin the land tour.",
+    "Visit Diamond Beach and enjoy the stunning white cliffs and crystal–blue ocean.",
+    "Continue to Broken Beach and Angel Billabong, two iconic must-visit destinations.",
+    "Lunch break at a prepared local restaurant.",
+    "Head to Kelingking Beach, one of the most famous spots in Nusa Penida.",
+    "Visit Paluang Cliff to enjoy a unique viewpoint of Kelingking from another angle.",
+    "Return to the harbor for the boat ride back to Sanur.",
+    "Arrive at Sanur Harbor — tour ends."
+  ],
+
+  "includes": [
+    "Round-trip Fastboat Ticket",
+    "Private Car for Island Tour",
+    "Driver as Guide",
+    "Lunch",
+    "Entrance Ticket Fees"
+  ],
+
+  "excludes": [
+    "Personal Expenses",
+    "Tips & Gratuities"
+  ],
+
+  "price": "Starts from IDR 350,000 / person",
+
+  "note": "Price per person depends on the number of participants (Pax):\n1 person: IDR 900,000 / pax\n2 persons: IDR 550,000 / pax\n3 persons: IDR 466,000 / pax\n4 persons: IDR 400,000 / pax\n5 persons: IDR 350,000 / pax\n\nNote: The price already includes all facilities in the package (All-Inclusive). Fastboat departures from Sanur are usually in the morning.",
+
+  "whatsappText": "Hello, I’m interested in the West & East Nusa Penida Combination Tour. Can you please check availability and price for [NUMBER OF PEOPLE] people?",
+
+  "gallery": [
+    "/diamond-beach.jpg",
+    "/broken-beach.jpg",
+    "/angel-billabong.jpg",
+    "/kelingking.jpg",
+    "/paluang-cliff.jpg"
+  ]
+},
+
+{
+  "id": 30,
+  "title": "Exclusive Snorkeling Experience in Nusa Penida",
+  "category": "Nusa Penida Tour",
+  "duration": "10 - 11 Hours (Full Day Tour)",
+  "image": "/nusa-penida-snorkeling.jpg",
+
+  "description": "Dive into the underwater beauty of Nusa Penida with this exclusive snorkeling package that covers three iconic spots: Manta Bay (chance to encounter majestic Manta Rays), Gamat Bay (rich coral gardens and tropical fish), and Wall Point (a dramatic coral wall full of marine life). This Full Day trip includes round-trip Fast Boat tickets, a private boat for snorkeling, and complete equipment — offering a safe, unforgettable marine adventure for nature lovers.",
+
+  "program": [
+    "Morning hotel pickup and transfer to Sanur Harbor",
+    "Public fastboat ride to Nusa Penida",
+    "Arrival in Nusa Penida, board a private boat for Snorkeling activities (Manta Bay, Gamat Bay, Wall Point — adjusted based on sea conditions)",
+    "Enjoy Indonesian-style Lunch",
+    "Return trip to the harbor by fastboat",
+    "Transfer back to your hotel in Bali (late afternoon/evening)"
+  ],
+
+  "includes": [
+    "Private Car with Balinese Driver",
+    "Fuel, Parking Fees, Toll Fees",
+    "Round-trip Fastboat Tickets to Nusa Penida",
+    "Private Snorkeling Boat",
+    "Snorkeling Equipment (Fin, Mask, Life Jacket)",
+    "Boat Captain / Professional Snorkeling Instructor",
+    "Mineral Water for Each Guest",
+    "Local Travel Insurance"
+  ],
+
+  "excludes": [
+    "Personal Expenses",
+    "Tips & Gratuities"
+  ],
+
+  "whatToBring": [
+    "Payment",
+    "Swimwear / Extra Clothes",
+    "Sunscreen",
+    "Hat, Sunglasses",
+    "Waterproof Camera"
+  ],
+
+  "price": "Starts from IDR 800,000 / person",
+
+  "note": "Prices vary depending on the number of participants. Prices below are per person:\n\n- 2 – 3 People: IDR 900,000 / person (USD 60)\n- 4 – 6 People: IDR 800,000 / person (USD 53)",
+
+  "whatsappText": "Hello, I am interested in the Nusa Penida Snorkeling Package. Please provide availability and pricing details for [NUMBER] people.",
+
+  "gallery": [
+    "/nusa-penida-snorkeling-1.jpg",
+    "/nusa-penida-snorkeling-2.jpg"
+  ]
+}
+
+
+
+
+
+
 ]
 
   
