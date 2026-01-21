@@ -111,32 +111,53 @@ function TourDetail() {
                     <span>{tour.duration}</span>
                   </div>
 
-                  {tour.category === "Bali Day Tour" && tour.highlight && (
-                    <div className="flex flex-wrap gap-3">
-                      {tour.highlight.map((item, i) => (
-                        <span
-                          key={i}
-                          className="text-sm bg-teal-50 text-teal-700 px-4 py-1.5 rounded-full font-medium"
-                        >
-                          {item}
-                        </span>
-                      ))}
-                    </div>
-                  )}
+                    {["Bali Day Tour", "Nusa Penida Tour"].includes(tour.category) &&
+                      tour.highlight && (
+                        <div className="flex flex-wrap gap-3">
+                          {tour.highlight.map((item, i) => (
+                            <span
+                              key={i}
+                              className="text-sm bg-teal-50 text-teal-700 px-4 py-1.5 rounded-full font-medium"
+                            >
+                              {item}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+
                 </div>
 
                 {/* Harga */}
-                <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                    {t("price_title")}
-                  </h2>
-                  <p className="text-2xl font-extrabold text-teal-600 mb-1">
-                    {tour.price}
-                  </p>
-                  {tour.note && (
-                    <pre className="text-sm text-gray-600 italic">*{tour.note}</pre>
-                  )}
-                </div>
+              <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
+  <h2 className="text-2xl font-bold text-gray-900 mb-2">
+    {t("price_title")}
+  </h2>
+
+  {/* Harga utama */}
+  <p className="text-2xl font-extrabold text-teal-600 mb-3">
+    {tour.price}
+  </p>
+
+  {/* Detail harga */}
+  {tour.note && (
+    
+     
+
+      <div className="mt-3 space-y-1 text-md text-gray-700">
+        {tour.note.split("\n").map((line, index) =>
+          line.trim() ? (
+            <p key={index} className="leading-relaxed">
+              {line}
+            </p>
+          ) : (
+            <div key={index} className="h-1" />
+          )
+        )}
+      </div>
+    
+  )}
+</div>
+
 
                {/* PROGRAM */}
 <div className="bg-white rounded-2xl p-8 border border-gray-200">
