@@ -1482,7 +1482,7 @@
   "title": "Eksplorasi Ikonik Nusa Penida Barat",
   "category": "Nusa Penida Tour",
   "duration": "8 - 10 Jam (Tour Sehari Penuh)",
-  "image": "/penida-west-paradise.jpg",
+  "image": "/klingkingbeach.jpg",
   "description": "Nikmati perjalanan ikonik ke Nusa Penida Barat, mengunjungi tebing-tebing spektakuler dan pantai-pantai tersembunyi seperti Kelingking Beach, Broken Beach, dan Angel Billabong. Harga menyesuaikan jumlah peserta.",
   "highlight": [
     "Kelingking Beach",
@@ -1518,10 +1518,10 @@
   "note": "Harga per orang akan lebih murah jika jumlah peserta (Pax) lebih banyak:\n1 orang: Rp 800.000 / Pax\n2 orang: Rp 500.000 / Pax\n3 orang: Rp 400.000 / Pax\n4 orang: Rp 350.000 / Pax\n5 orang: Rp 320.000 / Pax\n6 orang: Rp 300.000 / Pax\n\nCatatan: Harga sudah termasuk semua fasilitas yang disebutkan di atas (All-Inclusive). Jadwal keberangkatan Fastboat dari Sanur adalah pukul 08:00 Wita.",
   "whatsappText": "Halo, saya tertarik paket Eksplorasi Ikonik Nusa Penida Barat. Bisa bantu cek ketersediaan dan harga untuk [JUMLAH ORANG] orang?",
   "gallery": [
-    "/kellingking.jpg",
-    "/broken-beach.jpg",
-    "/angels-billabong.jpg",
-    "/crystal-bay.jpg"
+    "/klingkingbeach.jpg",
+    "/palungcliff.jpg",
+    "/brokenbeach.jpg",
+    "/angelbilabong.jpg"
   ]
 },
 
@@ -1530,7 +1530,7 @@
   "title": "Eksplorasi Eksotis Nusa Penida Timur",
   "category": "Nusa Penida Tour",
   "duration": "8 - 10 Jam (Tour Sehari Penuh)",
-  "image": "/penida-east-tour.jpg",
+  "image": "/rumahpohon.jpg",
 
   "description": "Jelajahi sisi timur Pulau Nusa Penida yang terkenal dengan tebing dramatis dan pantai-pantai eksotis. Kunjungi Diamond Beach, Atuh Beach, Rumah Pohon Molenteng, hingga panorama megah Pulau Seribu. Cocok untuk wisatawan yang mencari petualangan sekaligus keindahan alam yang autentik.",
 
@@ -1575,11 +1575,11 @@
   "whatsappText": "Halo, saya tertarik paket Eksplorasi Eksotis Nusa Penida Timur. Bisa bantu cek ketersediaan dan harga untuk [JUMLAH ORANG] orang?",
 
   "gallery": [
-    "/diamond-beach.jpg",
-    "/atuh-beach.jpg",
-    "/raja-lima.jpg",
-    "/rumah-pohon.jpg",
-    "/bukit-teletubbies.jpg"
+    "/diamondbeach.jpg",
+    "/rumahpohon.jpg",
+    "/atuhbeach.jpg",
+    "/rajalima.jpg",
+    "/bukitteletubbies.jpg"
   ]
 },
 
@@ -1588,7 +1588,7 @@
   "title": "Kombinasi Eksotis Nusa Penida Barat & Timur",
   "category": "Nusa Penida Tour",
   "duration": "10 - 12 Jam (Full Day Tour)",
-  "image": "/penida-combination.jpg",
+  "image": "/palungcliff.jpg",
 
   "description": "Paket kombinasi terbaik untuk menjelajahi keindahan ikonik Nusa Penida dalam satu hari. Anda akan mengunjungi destinasi favorit di sisi Barat dan Timur, mulai dari tebing dramatis, pantai eksotis, hingga spot foto paling terkenal seperti Diamond Beach, Broken Beach, Angel Billabong, dan Kelingking Beach.",
 
@@ -1633,11 +1633,11 @@
   "whatsappText": "Halo, saya tertarik Paket Kombinasi Nusa Penida Barat & Timur. Bisa bantu cek ketersediaan dan harga untuk [JUMLAH ORANG] orang?",
 
   "gallery": [
-    "/diamond-beach.jpg",
-    "/broken-beach.jpg",
-    "/angel-billabong.jpg",
-    "/kelingking.jpg",
-    "/paluang-cliff.jpg"
+    "/diamondbeach.jpg",
+    "/brokenbeach.jpg",
+    "/angelbilabong.jpg",
+    "/klingkingbeach.jpg",
+    "/palungcliff.jpg"
   ]
 },
 
@@ -1646,7 +1646,7 @@
     "title": "Snorkeling Eksklusif di Nusa Penida ",
      "category": "Nusa Penida Tour",
     "duration": "10 - 11 Jam (Full Day Tour)",
-    "image": "/nusa-penida-snorkeling.jpg",
+    "image": "/snorkling.jpg",
     "description": "Selami keindahan bawah laut Nusa Penida dalam paket snorkeling eksklusif ke tiga spot ikonik: Manta Bay (berpeluang melihat Pari Manta raksasa), Gamat Bay (taman karang dan ikan tropis yang kaya), dan Wall Point (dinding karang curam penuh biota laut). Perjalanan Full Day ini mencakup Fast Boat pulang-pergi, kapal pribadi untuk snorkeling, dan semua peralatan, menawarkan petualangan laut yang aman dan tak terlupakan bagi pecinta alam.",
     "program": [
       "Penjemputan dari hotel (pagi hari) dan transfer ke pelabuhan Sanur",
@@ -1681,8 +1681,8 @@
     "note": "Harga bervariasi tergantung jumlah peserta. Harga di bawah adalah per orang:\n\n- 2 - 3 Orang: IDR 900.000 / orang (USD 60)\n- 4 - 6 Orang: IDR 800.000 / orang (USD 53)",
     "whatsappText": "Halo, saya tertarik paket Bali Snorkeling di Nusa Penida. Mohon info ketersediaan dan rincian harga untuk [JUMLAH] orang.",
     "gallery": [
-      "/nusa-penida-snorkeling-1.jpg",
-      "/nusa-penida-snorkeling-2.jpg"
+      "/mantabay.jpg",
+      "/gamatbay.jpg"
     ]
   }
 

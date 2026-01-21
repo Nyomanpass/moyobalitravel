@@ -1470,7 +1470,7 @@
   "title": "Iconic Exploration of West Nusa Penida",
   "category": "Nusa Penida Tour",
   "duration": "8 - 10 Hours (Full Day Tour)",
-  "image": "/penida-west-paradise.jpg",
+  "image": "/klingkingbeach.jpg",
 
   "description": "Experience an iconic journey to West Nusa Penida, visiting dramatic cliffs and hidden beaches such as Kelingking Beach, Broken Beach, and Angel’s Billabong. Prices vary based on the number of participants.",
 
@@ -1514,11 +1514,11 @@
 
   "whatsappText": "Hello, I’m interested in the Iconic West Nusa Penida Tour package. Could you please check availability and pricing for [NUMBER OF PEOPLE] people?",
 
-  "gallery": [
-    "/kellingking.jpg",
-    "/broken-beach.jpg",
-    "/angels-billabong.jpg",
-    "/crystal-bay.jpg"
+   "gallery": [
+    "/klingkingbeach.jpg",
+    "/palungcliff.jpg",
+    "/brokenbeach.jpg",
+    "/angelbilabong.jpg"
   ]
 },
 
@@ -1527,7 +1527,7 @@
   "title": "Exotic Exploration of East Nusa Penida",
   "category": "Nusa Penida Tour",
   "duration": "8 - 10 Hours (Full Day Tour)",
-  "image": "/penida-east-tour.jpg",
+  "image": "/rumahpohon.jpg",
 
   "description": "Discover the eastern wonders of Nusa Penida, famous for its dramatic cliffs, pristine beaches, and breathtaking viewpoints. Visit Diamond Beach, Atuh Beach, Molenteng Tree House, and the majestic panorama of Thousand Islands. Perfect for travelers seeking adventure and authentic natural beauty.",
 
@@ -1572,11 +1572,11 @@
   "whatsappText": "Hello, I’m interested in the Exotic East Nusa Penida Tour package. Could you please check availability and pricing for [NUMBER OF PEOPLE] people?",
 
   "gallery": [
-    "/diamond-beach.jpg",
-    "/atuh-beach.jpg",
-    "/raja-lima.jpg",
-    "/rumah-pohon.jpg",
-    "/bukit-teletubbies.jpg"
+    "/diamondbeach.jpg",
+    "/rumahpohon.jpg",
+    "/atuhbeach.jpg",
+    "/rajalima.jpg",
+    "/bukitteletubbies.jpg"
   ]
 },
 
@@ -1585,7 +1585,7 @@
   "title": "Exotic Combination of West & East Nusa Penida",
   "category": "Nusa Penida Tour",
   "duration": "10 - 12 Hours (Full Day Tour)",
-  "image": "/penida-combination.jpg",
+ "image": "/palungcliff.jpg",
 
   "description": "The perfect combination package to explore the iconic beauty of Nusa Penida in just one day. You will visit favorite destinations on both the West and East sides, from dramatic cliffs and exotic beaches to the most famous photo spots such as Diamond Beach, Broken Beach, Angel Billabong, and Kelingking Beach.",
 
@@ -1629,12 +1629,12 @@
 
   "whatsappText": "Hello, I’m interested in the West & East Nusa Penida Combination Tour. Can you please check availability and price for [NUMBER OF PEOPLE] people?",
 
-  "gallery": [
-    "/diamond-beach.jpg",
-    "/broken-beach.jpg",
-    "/angel-billabong.jpg",
-    "/kelingking.jpg",
-    "/paluang-cliff.jpg"
+   "gallery": [
+    "/diamondbeach.jpg",
+    "/brokenbeach.jpg",
+    "/angelbilabong.jpg",
+    "/klingkingbeach.jpg",
+    "/palungcliff.jpg"
   ]
 },
 
@@ -1643,7 +1643,7 @@
   "title": "Exclusive Snorkeling Experience in Nusa Penida",
   "category": "Nusa Penida Tour",
   "duration": "10 - 11 Hours (Full Day Tour)",
-  "image": "/nusa-penida-snorkeling.jpg",
+  "image": "/snorkling.jpg",
 
   "description": "Dive into the underwater beauty of Nusa Penida with this exclusive snorkeling package that covers three iconic spots: Manta Bay (chance to encounter majestic Manta Rays), Gamat Bay (rich coral gardens and tropical fish), and Wall Point (a dramatic coral wall full of marine life). This Full Day trip includes round-trip Fast Boat tickets, a private boat for snorkeling, and complete equipment — offering a safe, unforgettable marine adventure for nature lovers.",
 
@@ -1687,9 +1687,9 @@
   "whatsappText": "Hello, I am interested in the Nusa Penida Snorkeling Package. Please provide availability and pricing details for [NUMBER] people.",
 
   "gallery": [
-    "/nusa-penida-snorkeling-1.jpg",
-    "/nusa-penida-snorkeling-2.jpg"
-  ]
+      "/mantabay.jpg",
+      "/gamatbay.jpg"
+    ]
 }
 
 
